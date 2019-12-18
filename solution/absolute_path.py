@@ -8,7 +8,7 @@ class AbsolutePath:
     @staticmethod
     def routine():
         """
-        функция для тестов для разных оперативных систем.
+        Функция для генерации абсолютных путей для статических файлов.
         """
         for address, dirs, files in os.walk(StaticData.items_path):
             for file in files:
