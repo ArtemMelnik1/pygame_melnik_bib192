@@ -24,7 +24,7 @@ class Moving:
         self.count = 0
         self.lives = 3
         self.Right1 = True
-        self.Strike = True
+        self.Strike = False
         self.items = [(720, 450, u'Play', (255, 255, 255), (255, 215, 0), 0),
                       (720, 490, u'Quit', (255, 255, 255), (255, 215, 0), 1)]
         self.win = pygame.display.set_mode((1440, 900))
